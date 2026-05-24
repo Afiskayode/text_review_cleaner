@@ -10,13 +10,10 @@ You need Python 3 installed on your machine. You can download it from [python.or
 
 1. Download or save the script as `main.py`.
 2. Create a folder named `data` in the same directory as `main.py`.
-3. Place your input CSV file inside that folder and name it exactly `TestReviews.csv`. 
-
-> **Important:** Your `TestReviews.csv` file must have a column named `review`.
-
-4. Open your terminal or command prompt and install the required libraries:
+3. Download the dataset from the [Kaggle Reviews Dataset](https://kaggle.com) and place the `TestReviews.csv` file inside that `data` folder.
+4. Open your terminal or command prompt and install the dependencies:
 ```bash
-pip install pandas nltk
+pip install -r requirements.txt
 ```
 
 ## How to Run
@@ -28,6 +25,9 @@ python main.py
 
 ## What the Script Does
 * Downloads the NLTK `stopwords` dataset automatically on the first run.
-* Cleans the text in the `review` column.
-* Saves the output to `data/cleaned_reviews.csv`.
+* Cleans the text inside the `review` column.
+* Saves the processed output to `data/cleaned_reviews.csv`.
 * Prints a 5-row preview of the cleaned data to your terminal.
+
+## Data Source
+This project uses the [Reviews Dataset](https://kaggle.com) provided by Ahmed Abdulhamid on Kaggle.
