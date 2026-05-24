@@ -10,7 +10,7 @@ You need Python 3 installed on your machine. You can download it from [python.or
 
 1. Download or save the script as `main.py`.
 2. Create a folder named `data` in the same directory as `main.py`.
-3. Download the dataset from the [Kaggle Reviews Dataset](https://kaggle.com) and place the `TestReviews.csv` file inside that `data` folder.
+3. Download the dataset from the [Kaggle Reviews Dataset](https://www.kaggle.com/datasets/ahmedabdulhamid/reviews-dataset) and place the `TestReviews.csv` file inside that `data` folder.
 4. Open your terminal or command prompt and install the dependencies:
 ```bash
 pip install -r requirements.txt
@@ -30,4 +30,4 @@ python main.py
 * Prints a 5-row preview of the cleaned data to your terminal.
 
 ## Data Source
-This project uses the [Reviews Dataset](https://kaggle.com) provided by Ahmed Abdulhamid on Kaggle.
+This project uses the [Reviews Dataset](https://www.kaggle.com/datasets/ahmedabdulhamid/reviews-dataset) provided by Ahmed Abdulhamid on Kaggle.
